@@ -1,0 +1,82 @@
+/* survey form css */
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(72, 16, 202, 0.5)),
+    url("./pexels-cottonbro-5473302.jpg") center/cover no-repeat fixed;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  word-spacing: 0.25rem;
+  line-height: 2;
+  letter-spacing: 0.1rem;
+}
+
+#title,
+#description {
+  text-align: center;
+  word-spacing: 0.25rem;
+}
+
+#title {
+  margin: 3rem 0 0.6rem 0;
+  font-family: "League Spartan", sans-serif;
+  font-size: 2.5rem;
+}
+
+#description {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+#survey-form {
+  width: 75%;
+  background: red;
+  margin: 0 auto;
+  padding: 3rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(72, 16, 202, 0.9));
+}
+
+#name-label,
+#number-label,
+#email-label,
+#dropdown,
+p + label,
+#texarea,
+#submit {
+  display: block;
+  text-transform: capitalize;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+textarea,
+#submit {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  text-transform: capitalize;
+  margin: 0.3rem 0;
+}
+
+#submit {
+  margin-top: 1rem;
+  background: rgb(108, 199, 108);
+  font-size: 1rem;
+  border: none;
+  padding: 0.7rem;
+}
+
+div {
+  width: 80%;
+  margin: 0 auto;
+  /* background: red; */
+}
